@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de193407-e1a0-472c-ab63-9af2047f3892" name="Default Changelist" comment="" />
+    <list default="true" id="de193407-e1a0-472c-ab63-9af2047f3892" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-data-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/classes/com/skynet/redis/RedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/classes/com/skynet/redis/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/classes/com/skynet/redis/controller/RedisController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/classes/com/skynet/redis/controller/RedisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/classes/com/skynet/redis/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-data-redis/target/springboot-data-redis-1.0-SNAPSHOT.jar" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +108,7 @@
       <updated>1611537637465</updated>
       <workItem from="1611543575259" duration="1197000" />
       <workItem from="1611544813998" duration="14758000" />
+      <workItem from="1611566932022" duration="982000" />
     </task>
     <servers />
   </component>
@@ -109,22 +124,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1611549083531" />
-    <state width="1323" height="99" key="GridCell.Tab.0.bottom" timestamp="1611565727111">
+    <state width="1323" height="333" key="GridCell.Tab.0.bottom" timestamp="1611568136672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611565727111" />
-    <state width="1323" height="99" key="GridCell.Tab.0.center" timestamp="1611565727111">
+    <state width="1323" height="333" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611568136672" />
+    <state width="1323" height="333" key="GridCell.Tab.0.center" timestamp="1611568136671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611565727111" />
-    <state width="1323" height="99" key="GridCell.Tab.0.left" timestamp="1611565727111">
+    <state width="1323" height="333" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611568136671" />
+    <state width="1323" height="333" key="GridCell.Tab.0.left" timestamp="1611568136669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611565727111" />
-    <state width="1323" height="99" key="GridCell.Tab.0.right" timestamp="1611565727111">
+    <state width="1323" height="333" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611568136669" />
+    <state width="1323" height="333" key="GridCell.Tab.0.right" timestamp="1611568136671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="99" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611565727111" />
+    <state width="1323" height="333" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611568136671" />
     <state width="1323" height="99" key="GridCell.Tab.1.bottom" timestamp="1611565727111">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
