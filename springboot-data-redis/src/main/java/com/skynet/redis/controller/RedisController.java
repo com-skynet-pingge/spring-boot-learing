@@ -31,7 +31,7 @@ public class RedisController {
         User user = new User();
         user.setUserId(1);
         user.setAge(18);
-        user.setUserName("章文平");
+        user.setUserName("张三");
         user.setAddress("上海市浦东新区唐镇创新中路");
         Object object = JSONArray.toJSON(user);
         String jsonString = object.toString();

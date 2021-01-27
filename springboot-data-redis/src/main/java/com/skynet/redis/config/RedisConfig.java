@@ -69,16 +69,23 @@ public class RedisConfig {
     @Bean
     @ConditionalOnMissingBean
     @ConfigurationProperties(prefix = "spring.redis")
-    public RedisConnectionFactory redisConnectionFactory (){
+    public RedisStandaloneConfiguration redisStandaloneConfiguration(){
         RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
         redisStandaloneConfiguration.setHostName(hostName);
         redisStandaloneConfiguration.setDatabase(database);
         redisStandaloneConfiguration.setPassword(password);
         redisStandaloneConfiguration.setPort(port);
+        return redisStandaloneConfiguration;
+    }
+
+
+    @Bean
+    @ConditionalOnMissingBean
+    public RedisConnectionFactory redisConnectionFactory (){
         JedisClientConfiguration.JedisPoolingClientConfigurationBuilder jpcb = (JedisClientConfiguration.JedisPoolingClientConfigurationBuilder) JedisClientConfiguration.builder();
         jpcb.poolConfig(this.jedisPoolConfig());
         JedisClientConfiguration jedisClientConfiguration = jpcb.build();
-        return new JedisConnectionFactory(redisStandaloneConfiguration, jedisClientConfiguration);
+        return new JedisConnectionFactory(this.redisStandaloneConfiguration(), jedisClientConfiguration);
     }
 
 
